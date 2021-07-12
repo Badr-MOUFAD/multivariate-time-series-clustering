@@ -1,6 +1,6 @@
 # Overview
 
-Here I perform a univaraite clustering which is a clustering of crop years according to one weather variable. Later, I characterize the resulting clusters and assess the final clustering procedure.
+Here I perform a univaraite clustering, specifically I cluster crop years according to a single weather variable. Later, I characterize the resulting clusters and assess the final clustering procedure.
 
 
 # Clustering specification
