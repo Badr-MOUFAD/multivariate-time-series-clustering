@@ -49,6 +49,12 @@ Here we make a slight modification on the crop year representation. Each crop ye
 
 #  Summary table
 
-| Approach | Basic       | PCA on times dimensions (before) | PCA on times dimensions (after)  | PCA on weather variables
-| ---------| ----------- | -----------                      | -----------                      | ----------- 
-| **Score**| 00.00       | 00.00                            | 00.00                            | 00.00
+| Approach               | Basic       | PCA on weather variables | PCA on times dimensions (before) | PCA on times dimensions (after)
+| ---------              | ----------- | -----------              | -----------                      | -----------
+| **Number of clusters** | 4           | 3                        | 4                                | 4                   
+| **Score**              | 51.30       | 57.30                    | 52.75                            | 41.70
+|
+
+
+- *before* means before merging weather variables into one data frame
+- *after* means before merging weather variables into one data frame

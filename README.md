@@ -20,3 +20,32 @@ Based on that, my research subject is entitled: **Improving the accuracy of crop
 I will perform this study on the weather data of the region **SIDI SLIMAN**, which is a Moroccan region highly reputed for agriculture. I will also be targeting the **wheat crop**.
 
 For more detail about the data and how it was processed, check the folder `data_processing`.
+
+
+#  Methods and summary results
+For more detail about this section, refer to `/univariate_clustering` and `/multivaraite_clustering` folders.
+
+## Univaraite clustering
+Clusterings crop years according to a given weather variable.
+
+| Approach               | Precipitation | GDD   | Wind  | Humidity
+| ---------              | -----------   | ---   | ----- | --------
+| **Number of clusters** | 4             | 3     | 3     | 2
+| **Score**              | 58.00         | 40.50 | 51.30 | 54.20
+|
+
+## Multivariate clustering
+Clustering crop years according to a set of weather variables. 
+
+| Approach               | Basic       | PCA on weather variables | PCA on times dimensions (before) | PCA on times dimensions (after)
+| ---------              | ----------- | -----------              | -----------                      | -----------
+| **Number of clusters** | 4           | 3                        | 4                                | 4                   
+| **Score**              | 51.30       | 57.30                    | 52.75                            | 41.70
+|
+
+
+# Conclusions
+
+From one hand Refering to the scores, if we opt for a univariate clustering of crop years, It is better to cluster according to **Precipitation**.
+
+Similarly, when perfoming clustering by considering all weather variables, the scores suggest **reducing the dimension of weather variables and then applying clustering**.

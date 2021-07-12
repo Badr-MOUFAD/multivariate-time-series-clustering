@@ -34,5 +34,13 @@ For a given weather variables (e.g. precipitation, GDD)
 5. Assess the clustering procedure by ploting the C-H index as a function of the number of clusters.
 
 
+#  Summary table
+
+| Approach               | Precipitation | GDD   | Wind  | Humidity
+| ---------              | -----------   | ---   | ----- | --------
+| **Number of clusters** | 4             | 3     | 3     | 2
+| **Score**              | 58.00         | 40.50 | 51.30 | 54.20
+|
+
 
 > The univariate clustering served as a tool to define the clustering framework to use in multivaraite clustering.

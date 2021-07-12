@@ -24,6 +24,8 @@ By referring to **FAO**, I got the calendar of some most-grown crops in the regi
   * Remove ****-02-29 from leap years. Remove crop years with unccomplete number of days
   * Shift all years, at this stage, date does not matter. Since the information about is contained in crop year. Add a day index 1, 2, ... n for each year
 
+<img src="../screenshots/gif-data-adaptation.gif" width="800px">
+
 3- add GDD, and cumulative precipitation.
 
   * for GDD, compute temperature AVG := (T2M_MAX + T2M_MIN) / 2
